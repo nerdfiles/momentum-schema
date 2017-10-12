@@ -4,8 +4,11 @@ const ObjectId = mongoose.Schema.Type.ObjectId
 
 const categorySchema = new mongoose.Schema({
   name: String
+}, {
+  timestamps: true,
+  id: false
 })
 
-const Event = mongoose.model('Event', eventSchema)
+const Category = mongoose.model('Category', categorySchema)
 
-module.exports = Event
+module.exports = Category
