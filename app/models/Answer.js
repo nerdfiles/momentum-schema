@@ -25,4 +25,8 @@ const answerAnswer = new mongoose.Schema({
 
 const Answer = mongoose.model('Answer', answerSchema)
 
+/**
+ * Exports
+ */
+
 module.exports = Answer

@@ -8,4 +8,9 @@ const scheduleSchema = new mongoose.Schema({
 
 const Schedule = mongoose.model('Schedule', scheduleSchema)
 
+
+/**
+ * Exports
+ */
+
 module.exports = Schedule

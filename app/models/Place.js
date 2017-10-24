@@ -8,4 +8,8 @@ const placeSchema = new mongoose.Schema({
 
 const Place = mongoose.model('Place', placeSchema)
 
+/**
+ * Exports
+ */
+
 module.exports = Place

@@ -8,4 +8,8 @@ const preferenceSchema = new mongoose.Schema({
 
 const Preference = mongoose.model('Preference', preferenceSchema)
 
+/**
+ * Exports
+ */
+
 module.exports = Preference

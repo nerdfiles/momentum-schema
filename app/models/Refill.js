@@ -12,4 +12,8 @@ const refillSchema = new mongoose.Schema({
 
 const Refill = mongoose.model('Refill', refillSchema)
 
+/**
+ * Exports
+ */
+
 module.exports = Refill

@@ -8,4 +8,8 @@ const categorySchema = new mongoose.Schema({
 
 const Event = mongoose.model('Event', eventSchema)
 
+/**
+ * Exports
+ */
+
 module.exports = Event

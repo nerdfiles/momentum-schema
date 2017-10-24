@@ -6,10 +6,10 @@ const actionStatusTypeSchema = new mongoose.Schema({
   name: String
 })
 
+const ActionStatusType = mongoose.model('ActionStatusType', actionStatusTypeSchema)
+
 /**
  * Exports
  */
-
-const ActionStatusType = mongoose.model('ActionStatusType', actionStatusTypeSchema)
 
 module.exports = ActionStatusType

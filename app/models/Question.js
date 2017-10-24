@@ -8,4 +8,8 @@ const productSchema = new mongoose.Schema({
 
 const Question = mongoose.model('Question', productSchema)
 
+/**
+ * Exports
+ */
+
 module.exports = Question

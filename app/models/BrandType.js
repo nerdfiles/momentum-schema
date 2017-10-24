@@ -8,4 +8,8 @@ const brandTypeSchema = new mongoose.Schema({
 
 const BrandType = mongoose.model('BrandType', brandTypeSchema)
 
+/**
+ * Exports
+ */
+
 module.exports = BrandType

@@ -33,4 +33,8 @@ const amountSchema = new mongoose.Schema({
 
 const Amount = mongoose.model('Amount', amountSchema)
 
+/**
+ * Exports
+ */
+
 module.exports = Amount

@@ -18,4 +18,8 @@ const formatSchema = new mongoose.Schema({
 
 const Format = mongoose.model('Format', formatSchema)
 
+/**
+ * Exports
+ */
+
 module.exports = Format

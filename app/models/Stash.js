@@ -23,4 +23,8 @@ const stashSchema = new mongoose.Schema({
 
 const Stash = mongoose.model('Stash', stashSchema)
 
+/**
+ * Exports
+ */
+
 module.exports = Stash

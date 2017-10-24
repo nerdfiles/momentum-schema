@@ -38,4 +38,8 @@ const actionSchema = new mongoose.Schema({
 
 const Action = mongoose.model('Action', actionSchema)
 
+/**
+ * Exports
+ */
+
 module.exports = Action

@@ -8,4 +8,9 @@ const productSchema = new mongoose.Schema({
 
 const Product = mongoose.model('Product', productSchema)
 
+
+/**
+ * Exports
+ */
+
 module.exports = Product

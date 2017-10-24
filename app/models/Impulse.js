@@ -18,4 +18,8 @@ const impulseSchema = new mongoose.Schema({
 
 const Impulse = mongoose.model('Impulse', impulseSchema)
 
+/**
+ * Exports
+ */
+
 module.exports = Impulse

@@ -8,4 +8,8 @@ const preferenceValueSchema = new mongoose.Schema({
 
 const PreferenceValue = mongoose.model('PreferenceValue', preferenceValueSchema)
 
+/**
+ * Exports
+ */
+
 module.exports = PreferenceValue

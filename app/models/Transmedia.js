@@ -58,5 +58,10 @@ const transmediaSchema = new mongoose.Schema({
 
 const Transmedia = mongoose.model('Transmedia', transmediaSchema)
 
+
+/**
+ * Exports
+ */
+
 module.exports = Transmedia
 
