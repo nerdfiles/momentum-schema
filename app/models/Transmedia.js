@@ -1,3 +1,11 @@
+// ./app/models/Transmedia.js
+/**
+ * @jsdoc model
+ * @name MomentumSchema.model:Transmedia
+ * @description Are signatures superstrings? Or more broadly, is a trace or
+ * gesture within timeless space generated within a Hilbert lattice such that
+ * its shape is nature itself?
+ */
 const mongoose = require('mongoose')
 
 const ObjectId = mongoose.Schema.Types.ObjectId
